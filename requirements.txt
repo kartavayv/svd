@@ -1,7 +1,7 @@
-streamlit
+streamlit==1.30.0
 numpy
 pandas
 matplotlib
 scikit-learn
-opencv-python-headless
+opencv-python-headless==4.9.0.80
 scipy
