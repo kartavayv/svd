@@ -4,5 +4,4 @@ pandas
 matplotlib
 scikit-learn
 opencv-python-headless
-io
 scipy
