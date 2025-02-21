@@ -34,7 +34,7 @@ def svd(image_pil, k):
 
 #Streamlit starts here
 st.title("Compress your image using SVD")
-st.image("image_comparison.png","", use_container_width=True)
+st.image("https://github.com/kartavayv/svd/blob/main/image_comparison.png","", use_container_width=True)
 uploaded_file = st.file_uploader("Upload an image", type=['png', 'jpeg','jpg'])
 
 if uploaded_file:
