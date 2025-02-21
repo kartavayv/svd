@@ -48,7 +48,7 @@ if uploaded_file:
     st.image(compressed_image, caption=f"Compressed image below (k={k})", use_container_width=True)
     st.write("DOWNLOAD THE IMAGE BELOW")
     _, buffer = cv2.imencode(".jpg", compressed_image)
-    compressed_bytes = BytesIO(buffer)
+    compressed_bytes = BytesIO(buffer.tobytes())
     st.download_button(
       label="📥Download your image here, man!",
       data = compressed_bytes,
